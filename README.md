@@ -63,7 +63,7 @@ targets::tar_read(age_histogram_plot)
 
 ##### To count the unique elements in the column `age` in the `insurance_data`data.frame
 ```r
-targets::tar_read(age_count)`
+targets::tar_read(age_count)
 ```
 
 *NB*: if you use the rstudio console, it will not show all the plots that have been created, instead, it will show only the last plot. To view all plots, I suggest you to use rmarkdown or quarto for a better vizualization.
