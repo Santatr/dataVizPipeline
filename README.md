@@ -17,15 +17,21 @@ It is an r package that will allow us to visualize a dataset. The available plot
 ## Installation
 
 #### Run on your terminal the following command to clone the repository:
-```git clone git@github.com:Santatr/dataVizPipeline.git```
+```r
+git clone git@github.com:Santatr/dataVizPipeline.git
+```
 
 #### Open the project in rstudio or other IDE that you use;
 
 #### Run on your console in rstudio the following command to install all the required libraries:
-```renv::restore()```
+```r
+renv::restore()
+```
 
 #### Run on your console the following command to execute the pipeline:
-```targets::tar_make()```
+```r
+targets::tar_make()
+```
 
 
 
@@ -45,6 +51,8 @@ targets::tar_load(insurance_data)
 ```r
 targets::tar_read(insurance_data_report)
 ```
+*NB*: if you use the rstudio console, it will not show all the plots that have been created, instead, it will show only the last plot. To view all plots, I suggest you to use rmarkdown or quarto for a better vizualization.
+
 
 ##### To plot a piechart plot for the column `region`
 ```r
@@ -66,4 +74,3 @@ targets::tar_read(age_histogram_plot)
 targets::tar_read(age_count)
 ```
 
-*NB*: if you use the rstudio console, it will not show all the plots that have been created, instead, it will show only the last plot. To view all plots, I suggest you to use rmarkdown or quarto for a better vizualization.
