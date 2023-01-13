@@ -1,0 +1,8 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+age_count|stem|108ce5eabc6288f7|09e8291ab6b8c254|c1dcd5ae8c43086e|-1746272017||t19370.800390609s|44989414465ff33d|49|rds|local|vector|||0||
+age_histogram_plot|stem|a5593d200af0a7ad|40edd79de2797db4|3f6fea927c667ef0|-2094850397||t19370.8003884794s|a27af754caa8b2dd|81613|rds|local|vector|||0.092||
+charges_density_plot|stem|6fefcfe2a470baed|165e2b211c1a941f|ea0c43ff5541b6a7|-624697779||t19370.8003909794s|f4859098fce83c18|81355|rds|local|vector|||0.004||
+get_data|function|30d17cad3e42feaa|||||||||||||||
+insurance_data|stem|c3e7a52eaf16c5b2|f0c78c8250679058|145310f64d28fc8a|653365152||t19370.8003868127s|cbd3ff5d56cae6df|17675|rds|local|vector|||0.001||
+insurance_data_report|stem|6dbaeb2eff3455f8|71bd02b842cfab5f|373cf56efa18585e|-1512934513||t19370.8003905627s|51a696d6ce119a02|285253|rds|local|vector|||0.115||
+region_piechart_plot|stem|d6e92dfa917c2af1|370fc79df010bb3d|064af07646acf8e2|-1267867038||t19370.8003915812s|4d362f267a9a70ae|77030|rds|local|vector|||0.023||
