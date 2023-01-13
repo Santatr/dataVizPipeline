@@ -61,7 +61,7 @@ targets::tar_read(charges_density_plot)
 targets::tar_read(age_histogram_plot)
 ```
 
-##### To count the unique elements in the column `age` in the `insurance_data`data.frame
+##### To count the unique elements in the column `age` in the `insurance_data` data.frame
 ```r
 targets::tar_read(age_count)
 ```
